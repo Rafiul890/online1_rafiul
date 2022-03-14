@@ -1,0 +1,12 @@
+create database db0;
+use db0;
+
+create table t0 ( 
+	id INT(10) AUTO_INCREMENT, 
+        NAME char(30),
+        APPT_DATe char(30),
+        FROM_LOCATION char(30),
+        TO_LOCATION char(30),
+        STATUS(30),
+	PRIMARY KEY(id) 
+);
